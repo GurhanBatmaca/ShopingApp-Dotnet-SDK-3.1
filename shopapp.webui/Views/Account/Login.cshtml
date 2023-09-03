@@ -1,0 +1,13 @@
+@model LoginModel
+
+<h1 class="h3">Login</h1>
+<hr>
+
+<div class="row">
+    <div class="col-md-8">
+        <form asp-controller="Account" asp-action="Login" method="post">
+            <input type="hidden" name="ReturnUrl" value="@Model.ReturnUrl">
+            <div asp-validation-summary="All" class="text-danger"></div>
+        </form>
+    </div>
+</div>
