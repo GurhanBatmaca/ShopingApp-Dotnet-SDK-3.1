@@ -1,5 +1,7 @@
-# ShopingApp
-
-**Full Stack ASP.Net Core Mvc App with:**
-**Entity Framework, Identity, SQLServer.**
-*Dotnet SDK version:3.1*
+Shoping App
+Asp.Net Core --SDK-Version 3.1
+Onion Architecture
+Entity Framework
+Entity Framework Identity
+Authentication and Role-Based Authorization
+Microsoft Sql Server
